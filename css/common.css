@@ -25,3 +25,7 @@
   height: 20px;
   margin: 40px 40px;
 }
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
