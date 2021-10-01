@@ -2,3 +2,7 @@
   background-color: red;
 }
 
+.ex-2-square:active{
+  width: 100%;
+}
+
