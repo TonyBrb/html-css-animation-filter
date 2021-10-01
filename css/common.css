@@ -59,10 +59,10 @@
 }
 
 .ex-10-icon{
-  animation: orario 2s linear infinite;
+  animation: antiorario 1s linear infinite;
 }
 
-@keyframes orario{
+@keyframes antiorario{
   25%{
     transform: rotate(-90deg);
   }
@@ -77,4 +77,21 @@
   }
 }
 
+.ex-11-icon:hover{
+  animation: orario 2s linear;
+}
 
+@keyframes orario{
+  25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  90%{
+    transform: rotate(280deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
